@@ -221,7 +221,7 @@ def apply_main_chatbot_styling():
            text-align: center;
            width: 80%;
            padding: 0.2rem;
-           font-size: 10px !important;
+           font-size: 12px !important;
            color: #333;
            border-radius: 4px;
         }

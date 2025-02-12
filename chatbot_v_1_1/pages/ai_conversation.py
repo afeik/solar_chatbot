@@ -235,7 +235,7 @@ def claude_conversation(client):
                     st.switch_page("energy_transition_chatbot_main.py")
 
         # A small spacer (adjust height as desired)
-        st.markdown("<div style='height:57vh;'></div>", unsafe_allow_html=True)
+        #st.markdown("<div style='height:57vh;'></div>", unsafe_allow_html=True)
 
         # Directly below, place the Impressum and Feedback buttons in two columns.
         impressum, feedback = st.columns(2)
