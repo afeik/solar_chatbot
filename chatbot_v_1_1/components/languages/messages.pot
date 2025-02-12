@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 13:50+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Deutsch <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: components/front_page.py:26
+msgid "<h3>Welcome to the Energy Transition Chatbot!</h3>"
+msgstr "<h3>Willkommen beim Energiewende-Chatbot!</h3>"
+
+#: components/front_page.py:38
+msgid "How would you rate your knowledge about the energy transition?"
+msgstr "Wie würden Sie Ihr Wissen über die Energiewende einschätzen?"
+
+#: components/front_page.py:43
+msgid ""
+"I acknowledge that data collected during this session will be securely "
+"stored and used solely for research purposes at ETH Zurich."
+msgstr ""
+"Ich bestätige, dass die während dieser Sitzung gesammelten Daten sicher "
+"gespeichert und ausschließlich für Forschungszwecke an der ETH Zürich "
+"verwendet werden."
+
+#: components/ai_conversation.py:40
+msgid "End Conversation"
+msgstr "Gespräch beenden"
+
+#: components/ai_conversation.py:97
+msgid "Your response:"
+msgstr "Ihre Antwort:"
+
+#: components/user_ratings.py:23
+msgid "<h4>AI Summary of your concern:</h4>"
+msgstr "<h4>KI-Zusammenfassung Ihres Anliegens:</h4>"
+
+#: components/user_ratings.py:53
+msgid "How confident are you that this statement is correct?"
+msgstr "Wie sicher sind Sie, dass diese Aussage korrekt ist?"
+
+#: components/user_ratings.py:58
+msgid "Submit Initial Rating"
+msgstr "Erste Bewertung abgeben"
+
+#: components/user_ratings.py:81
+msgid "<h4>Your initial concern was summarized as:</h4>"
+msgstr "<h4>Ihr ursprüngliches Anliegen wurde wie folgt zusammengefasst:</h4>"
+
+#: components/user_ratings.py:95
+msgid ""
+"After discussing, how confident are you now that this statement is correct?"
+msgstr ""
+"Nach der Diskussion, wie sicher sind Sie jetzt, dass diese Aussage korrekt ist?"
+
+#: components/user_ratings.py:96
+msgid "Submit Final Rating"
+msgstr "Endgültige Bewertung abgeben"
+
+#: components/user_summary.py:17
+msgid "<h4>Switzerland's Energy Transition</h4>"
+msgstr "<h4>Die Energiestrategie der Schweiz</h4>"
+
+#: components/user_summary.py:23
+msgid "Age Group:"
+msgstr "Altersgruppe:"
+
+#: components/user_summary.py:25 components/user_summary.py:41
+#: components/user_summary.py:48 components/user_summary.py:90
+#: components/user_summary.py:91 components/user_summary.py:92
+#: components/user_summary.py:103 components/user_summary.py:105
+#: components/user_summary.py:107
+msgid "Select"
+msgstr "Auswählen"
+
+#: components/user_summary.py:26
+msgid "Under 18"
+msgstr "Unter 18"
+
+#: components/user_summary.py:27
+msgid "18-24"
+msgstr "18-24"
+
+#: components/user_summary.py:28
+msgid "25-34"
+msgstr "25-34"
+
+#: components/user_summary.py:29
+msgid "35-44"
+msgstr "35-44"
+
+#: components/user_summary.py:30
+msgid "45-54"
+msgstr "45-54"
+
+#: components/user_summary.py:31
+msgid "55-64"
+msgstr "55-64"
+
+#: components/user_summary.py:32
+msgid "65 and older"
+msgstr "65 und älter"
+
+#: components/user_summary.py:33 components/user_summary.py:41
+msgid "Prefer not to say"
+msgstr "Möchte ich nicht angeben"
+
+#: components/user_summary.py:40
+msgid "Gender:"
+msgstr "Geschlecht:"
+
+#: components/user_summary.py:41
+msgid "Male"
+msgstr "Männlich"
+
+#: components/user_summary.py:41
+msgid "Female"
+msgstr "Weiblich"
+
+#: components/user_summary.py:41
+msgid "other"
+msgstr "Divers"
+
+#: components/user_summary.py:47
+msgid "Highest Degree Achieved:"
+msgstr "Höchster erreichter Abschluss:"
+
+#: components/user_summary.py:48
+msgid "High School"
+msgstr "Abitur"
+
+#: components/user_summary.py:48
+msgid "Bachelor's"
+msgstr "Bachelor"
+
+#: components/user_summary.py:48
+msgid "Master's"
+msgstr "Master"
+
+#: components/user_summary.py:48
+msgid "PhD"
+msgstr "Promotion"
+
+#: components/user_summary.py:48
+msgid "Other"
+msgstr "Anderes"
+
+#: components/user_summary.py:55
+msgid ""
+"**Please describe a concrete concern that you have about the Energy "
+"Transition:**"
+msgstr ""
+"**Bitte beschreiben Sie ein konkretes Anliegen, das Sie bezüglich der "
+"Energiestrategie haben:**"
+
+#: components/user_summary.py:64
+msgid "Submit Statement"
+msgstr "Anliegen absenden"
+
+#: components/user_summary.py:70
+msgid "I'm worried the energy transition will increase electricity bills."
+msgstr "Ich befürchte, dass die Energiestrategie die Stromrechnungen erhöhen wird."
+
+#: components/user_summary.py:71
+msgid "I'm concerned about blackouts during the transition period."
+msgstr "Ich mache mir Sorgen über Stromausfälle während der Übergangsphase."
+
+#: components/user_summary.py:72
+msgid "I fear job losses in traditional energy sectors."
+msgstr "Ich fürchte Arbeitsplatzverluste in traditionellen Energiesektoren."
+
+#: components/user_summary.py:73
+msgid "I'm worried about environmental impacts of new infrastructure."
+msgstr "Ich bin besorgt über die Umweltauswirkungen neuer Infrastrukturen."
+
+#: components/user_summary.py:74
+msgid "I feel the transition is moving too fast and disrupting daily life."
+msgstr "Ich empfinde, dass der Übergang zu schnell voranschreitet und den Alltag stört."
+
+#: components/user_summary.py:78
+msgid "Need inspiration? Click here to see example concerns."
+msgstr "Brauchen Sie Inspiration? Klicken Sie hier, um Beispielanliegen zu sehen."
+
+#: components/user_summary.py:101
+msgid ""
+"<div style='color: gray; font-size: 13px; padding: 5px; text-align: center; "
+"border-radius: 5px;'>"
+msgstr ""
+"<div style='color: gray; font-size: 13px; padding: 5px; text-align: center; "
+"border-radius: 5px;'>"
+
+#: components/user_summary.py:104
+msgid "Please select your age group."
+msgstr "Bitte wählen Sie Ihre Altersgruppe."
+
+#: components/user_summary.py:106
+msgid "Please select your gender."
+msgstr "Bitte wählen Sie Ihr Geschlecht."
+
+#: components/user_summary.py:108
+msgid "Please select your highest degree."
+msgstr "Bitte wählen Sie Ihren höchsten Abschluss."
+
+#: components/user_summary.py:111
+msgid "Please enter at least "
+msgstr "Bitte geben Sie mindestens "
+
+#: components/user_summary.py:113
+msgid " characters. You currently have: "
+msgstr " Zeichen ein. Sie haben derzeit: "
+
+#: components/user_summary.py:115
+msgid " characters."
+msgstr " Zeichen."

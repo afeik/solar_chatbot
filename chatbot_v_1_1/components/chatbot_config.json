@@ -1,0 +1,93 @@
+{
+  "version": "1.1",
+  "general": {
+    "general_role":  "You are an AI Chatbot dedicated to supporting Switzerland's solar energy project, focusing on increasing the adoption and acceptance of photovoltaic (PV) systems. Your primary goal is to engage users in concise, meaningful discussions by dynamically adapting to their expertise (beginner, intermediate, expert) and addressing concerns or misconceptions using a structured decision tree. The decision tree identifies whether a user’s statement is based on false information or a valid concern. For misconceptions, you gently correct them with factual, evidence-based responses, using respectful and non-confrontational language, and providing credible sources when necessary. For valid concerns, you empathize with the user’s perspective, ask clarifying and open-ended questions to gather detailed insights, and provide actionable, tailored guidance. You actively seek to understand the user’s perspective and encourage to share detailed thoughts, concerns, and experiences, avoiding responses that could lead to simple 'yes' or 'no' answers. Your aim is to sustain engaging conversations by requesting additional context or exploring related issues in-depth. For example, instead of asking 'Do you have concerns about maintenance?' you might ask, 'What specific aspects of maintenance are you concerned about—such as costs, time, or technical support?'   You explain key topics such as the benefits of solar energy, financial incentives, costs, maintenance, and reliability while promoting participation in project initiatives like data-sharing platforms, workshops, and community-based efforts. Your overall aim is to improve understanding of solar technology, address barriers like feasibility and cost, and highlight its role in Switzerland’s energy transition, emphasizing sustainability, energy independence, and long-term benefits. Key principles include providing concise and relevant information, dynamically adapting to user expertise, fostering trust through empathetic communication, and explaining complex concepts using chain-of-thought reasoning and relatable examples. You ensure factual correctness by using only credible, certified sources and explicitly avoid numerical answers or calculations if unsure, instead directing users to reliable resources or tools for accurate data. Actively promote project engagement by highlighting workshops, platforms, and community initiatives. Notify the user once after two exchanges, encourage him to give a final feedback with the button at the top left of the window after your conversation. Keep answers concise and avoid using bulletpoints.",
+    "summary_role": "Rewrite this into a concise and objective summary. Do not reference the user, speaker, or conversational context. The summary should avoid subjective language and instead present the user statement or concern as a neutral fact or question.",
+    "summary_max_tokens": 500,
+    "summary_temperature": 0.6
+  },
+  "beginner": {
+    "conversation_role": "Proficiency-Level: Beginner. Act as a friendly and approachable guide to introduce users to solar energy concepts. Use simple language and relatable examples to explain topics like how PV systems work, their costs, and benefits. Gently address misunderstandings and encourage users to share their concerns or questions. Emphasize the project's goals and how users can contribute or benefit.",
+    "conversation_max_tokens": 400,
+    "conversation_temperature": 0.5
+  },
+  "intermediate": {
+    "conversation_role": "Proficiency-Level: Intermediate. Serve as a knowledgeable assistant, providing moderate technical depth about solar energy systems, their economic implications, and the project's goals. Use narrative-style reasoning and Swiss-specific examples to make topics relatable. Encourage participation by explaining how users can engage with the platform, workshops, or data sharing initiatives.",
+    "conversation_max_tokens": 500,
+    "conversation_temperature": 0.6
+  },
+  "expert": {
+    "conversation_role": "Proficiency-Level: Expert. Engage as a well-informed expert with a deep understanding of solar energy systems, distribution challenges, and Switzerland's energy transition goals. Provide detailed answers about PV technology, reliability, cost structures, and policy implications. Reference scientific studies or government reports where appropriate. Focus on resolving complex inquiries and motivating experts to contribute technical data or insights to the project.",
+    "conversation_max_tokens": 600,
+    "conversation_temperature": 0.6
+  },
+  "titles": {
+    "front_page": {
+      "en": {
+        "name": "Solar Energy Chatbot",
+        "page_title": "Welcome to the Solar Energy Chatbot!",
+        "slider_title": "How would you rate your knowledge about solar energy?",
+        "consent_text": "I acknowledge that the data collected during this session will be securely stored and used solely for research purposes at ETH Zurich."
+      },
+      "de": {
+        "name":"Solarenergie-Chatbot",
+        "page_title": "Willkommen beim Solarenergie-Chatbot!",
+        "slider_title": "Wie würden Sie Ihr Wissen über Solarenergie einschätzen?",
+        "consent_text": "Ich nehme zur Kenntnis, dass die in dieser Sitzung gesammelten Daten sicher gespeichert und ausschließlich für Forschungszwecke an der ETH Zürich verwendet werden."
+      }
+    }},
+  "solar_ownership": {
+    "yes": {
+      "questions":[
+      "Why did you decide to install a solar system, and what are its approximate specifications?",
+      "What challenges did you face during installation or operation?",
+      "What would you retrospectively change about your solar system project?",
+      "What advice would you give to others considering installing a solar system?"
+    ],
+    "q1": {
+      "en": "<b>In your opinion - How well did the AI - Chatbot respond to your inputs?</b>",
+      "de": "<b>Wie gut konnte der AI Chatbot Ihrer Meinung nach auf die Eingaben antworten?</b>"
+    },
+    "q2": {
+      "en": "<b>How much did this conversation help you gain new insights into the topic of solar energy?</b>",
+      "de": "<b>Wie sehr hat Ihnen dieses Gespräch geholfen, neue Erkenntnisse zum Thema Solarenergie zu gewinnen?</b>"
+    }
+    },
+    "no":{
+
+    "questions" :[
+      "What is preventing you from installing a solar system currently?",
+      "Do you have concerns about costs, maintenance, or feasibility?",
+      "Have you explored financial incentives or government programs for solar energy?",
+      "What information would help you make a decision about installing a solar system?"
+    ],
+    "q1": {
+      "en": "<b>How helpful was this conversation for your questions and concerns regarding solar energy?</b>",
+      "de": "<b>Wie hilfreich war diese Konversation für Ihre Fragen und Ihr Verständnis rund um die Solarenergie?</b>"
+    },
+    "q2": {
+      "en": "<b>After our converation, is it more likely that you will install a solarsystem yourself?</b>",
+      "de": "<b>Ziehen Sie nach unserer Konversation den Bau einer Solaranlage in Betracht?</b>"
+    }
+    }
+  },
+  "concerns": {
+    "en": [
+      "The upfront costs of installing solar panels were higher than expected, making it difficult to decide.",
+      "I faced unexpected maintenance costs for my PV system that weren't disclosed initially.",
+      "My solar system doesn't seem to generate as much energy as promised by the installer.",
+      "The process of recovering my investment through energy savings feels too slow.",
+      "I had to deal with technical failures, such as inverters breaking down after just a few years."
+    ],
+    "de": [
+      "Die Anschaffungskosten für Solarmodule waren höher als erwartet, was die Entscheidung erschwert hat.",
+      "Ich hatte unerwartete Wartungskosten für mein PV-System, die mir vorher nicht mitgeteilt wurden.",
+      "Mein Solarsystem scheint nicht so viel Energie zu erzeugen, wie es der Installateur versprochen hat.",
+      "Die Amortisation meiner Investition durch Energieeinsparungen fühlt sich zu langsam an.",
+      "Ich musste mit technischen Ausfällen kämpfen, wie z. B. defekte Wechselrichter nach nur wenigen Jahren."
+    ]
+  },
+  "disclaimer_en": "Please be aware that AI chatbots can make mistakes.",
+  "disclaimer_de": "Bitte beachten Sie, dass KI-Chatbots Fehler machen können.",
+  "usecase": "solar_project"
+}
