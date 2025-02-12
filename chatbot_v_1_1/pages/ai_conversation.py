@@ -321,7 +321,7 @@ def claude_conversation(client):
                 f"User Proficiency Level: {st.session_state.proficiency}"
             )
             init_resp = client.messages.create(
-                model="claude-3-5-haiku-20241022",
+                model="claude-3-5-sonnet-20241022",
                 max_tokens=chatbot_config[st.session_state.proficiency]["conversation_max_tokens"],
                 temperature=chatbot_config[st.session_state.proficiency]["conversation_temperature"],
                 system=(
@@ -373,7 +373,7 @@ def claude_conversation(client):
         )
 
         response = client.messages.create(
-            model="claude-3-5-haiku-20241022",
+            model="claude-3-5-sonnet-20241022",
             max_tokens=500,
             temperature=0.7,
             system="Some system prompt...",
