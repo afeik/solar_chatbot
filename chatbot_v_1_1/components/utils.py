@@ -213,9 +213,9 @@ def apply_main_chatbot_styling():
         /* Pinned text block below the chat input */
         #pinned-text-below {
            position: fixed;
-           bottom: 30px; 
+           bottom: 20px; 
            left: 60%;
-           transform: translateX(-60%);
+           transform: translateX(-50%);
            z-index: 9998; 
            background-color: white;
            text-align: center;
