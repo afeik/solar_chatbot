@@ -215,7 +215,7 @@ def apply_main_chatbot_styling():
            position: fixed;
            bottom: 30px; 
            left: 60%;
-           transform: translateX(-50%);
+           transform: translateX(-60%);
            z-index: 9998; 
            background-color: white;
            text-align: center;
