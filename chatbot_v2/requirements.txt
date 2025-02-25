@@ -1,0 +1,8 @@
+fastapi==0.115.8
+uvicorn[standard]==0.34.0
+SQLAlchemy==2.0.36
+pydantic==2.10.2
+google-cloud-secret-manager==2.21.1
+python-dotenv==1.0.1
+anthropic==0.40.0
+psycopg2-binary==2.9.6

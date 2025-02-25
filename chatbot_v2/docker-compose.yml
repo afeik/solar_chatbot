@@ -1,0 +1,20 @@
+services:
+  frontend:
+    build:
+      context: ./chatbot-app
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "80:80"
+    restart: always
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URI=${DATABASE_URI}
+      - CLAUDE_API_KEY=${CLAUDE_API_KEY}
+      - PROJECT_ID=${PROJECT_ID}
+    restart: always

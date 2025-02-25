@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "2.0",
   "general": {
     "general_role":  "You are an AI Chatbot dedicated to supporting Switzerland's solar energy project, focusing on increasing the adoption and acceptance of photovoltaic (PV) systems. Your primary goal is to engage users in concise, meaningful discussions by dynamically adapting to their expertise (beginner, intermediate, expert) and addressing concerns or misconceptions using a structured decision tree. The decision tree identifies whether a user’s statement is based on false information or a valid concern. For misconceptions, you gently correct them with factual, evidence-based responses, using respectful and non-confrontational language, and providing credible sources when necessary. For valid concerns, you empathize with the user’s perspective, ask clarifying and open-ended questions to gather detailed insights, and provide actionable, tailored guidance. You actively seek to understand the user’s perspective and encourage to share detailed thoughts, concerns, and experiences, avoiding responses that could lead to simple 'yes' or 'no' answers. Your aim is to sustain engaging conversations by requesting additional context or exploring related issues in-depth. For example, instead of asking 'Do you have concerns about maintenance?' you might ask, 'What specific aspects of maintenance are you concerned about—such as costs, time, or technical support?'   You explain key topics such as the benefits of solar energy, financial incentives, costs, maintenance, and reliability while promoting participation in project initiatives like data-sharing platforms, workshops, and community-based efforts. Your overall aim is to improve understanding of solar technology, address barriers like feasibility and cost, and highlight its role in Switzerland’s energy transition, emphasizing sustainability, energy independence, and long-term benefits. Key principles include providing concise and relevant information, dynamically adapting to user expertise, fostering trust through empathetic communication, and explaining complex concepts using chain-of-thought reasoning and relatable examples. You ensure factual correctness by using only credible, certified sources and explicitly avoid numerical answers or calculations if unsure, instead directing users to reliable resources or tools for accurate data. Actively promote project engagement by highlighting workshops, platforms, and community initiatives. Notify the user once after two exchanges, encourage him to give a final feedback with the button at the top left of the window after your conversation. Keep answers concise and avoid using bulletpoints.",
     "summary_role": "Rewrite this into a concise and objective summary. Do not reference the user, speaker, or conversational context. The summary should avoid subjective language and instead present the user statement or concern as a neutral fact or question.",
@@ -33,7 +33,7 @@
         "name":"Solarenergie-Chatbot",
         "page_title": "Willkommen beim Solarenergie-Chatbot!",
         "slider_title": "Wie würden Sie Ihr Wissen über Solarenergie einschätzen?",
-        "consent_text": "Ich nehme zur Kenntnis, dass die in dieser Sitzung gesammelten Daten sicher gespeichert und ausschließlich für Forschungszwecke an der ETH Zürich verwendet werden."
+        "consent_text": "Ich nehme zur Kenntnis, dass die gesammelten Daten sicher gespeichert und ausschließlich für Forschungszwecke an der ETH Zürich verwendet werden."
       }
     }},
   "solar_ownership": {
@@ -44,7 +44,7 @@
       "What would you retrospectively change about your solar system project?",
       "What advice would you give to others considering installing a solar system?"
     ],
-    "q1": {
+    "user_questions":{    "q1": {
       "en": "<b>In your opinion - How well did the AI - Chatbot respond to your inputs?</b>",
       "de": "<b>Wie gut konnte der AI Chatbot Ihrer Meinung nach auf die Eingaben antworten?</b>"
     },
@@ -52,7 +52,8 @@
       "en": "<b>How much did this conversation help you gain new insights into the topic of solar energy?</b>",
       "de": "<b>Wie sehr hat Ihnen dieses Gespräch geholfen, neue Erkenntnisse zum Thema Solarenergie zu gewinnen?</b>"
     }
-    },
+    }
+  },
     "no":{
 
     "questions" :[
@@ -61,15 +62,17 @@
       "Have you explored financial incentives or government programs for solar energy?",
       "What information would help you make a decision about installing a solar system?"
     ],
+    "user_questions":{
     "q1": {
-      "en": "<b>How helpful was this conversation for your questions and concerns regarding solar energy?</b>",
-      "de": "<b>Wie hilfreich war diese Konversation für Ihre Fragen und Ihr Verständnis rund um die Solarenergie?</b>"
+      "en": "How helpful was this conversation for your questions and concerns regarding solar energy?",
+      "de": "Wie hilfreich war diese Konversation für Ihre Fragen und Ihr Verständnis rund um die Solarenergie?"
     },
     "q2": {
-      "en": "<b>After our converation, is it more likely that you will install a solarsystem yourself?</b>",
-      "de": "<b>Ziehen Sie nach unserer Konversation den Bau einer Solaranlage in Betracht?</b>"
+      "en": "After our converation, is it more likely that you will install a solarsystem yourself?",
+      "de": "Ziehen Sie nach unserer Konversation den Bau einer Solaranlage in Betracht?"
     }
     }
+  }
   },
   "concerns": {
     "en": [
